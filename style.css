@@ -4,9 +4,11 @@ nav {
 
 nav a {
   text-decoration: none;
-
 }
 #menu {
-  color: #00965E
+  background-color: #00965E
+  margin: 0;
+  padding: 20px;
 }
+
 <!-- 00965E green A4DBE8 blue -->
