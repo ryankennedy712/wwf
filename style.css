@@ -10,7 +10,7 @@ nav a {
 body {
   margin: 0;
 }
-#menu {
+.menu {
   background-color: #A9DBE8;
   margin: 0;
   padding: 20px;
