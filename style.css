@@ -1,3 +1,7 @@
+* {
+
+}
+
 nav {
   float: right;
   padding-right: 20px;
@@ -48,6 +52,21 @@ h2 {
 }
 
 .icon {display: none;}
+
+/*-- Index-Home --------------*/
+#pop {}
+#wycdP {}
+.wycdDIV{}
+.wycdImg{}
+.wycdBlurb{}
+
+/*-- Climate ------------*/
+#climateSec{ display: block;}
+#climateBlurbLeft{ margin-right: auto;}
+#climateIMGRight{ float:right;}
+#climateIMGLeft{ float: left;}
+#climateBlurbRight{ margin-left: auto;}
+.climateIMG{ display: block;}
 
 @media only screen and (max-width: 768px) {
     .menu {display: block;
