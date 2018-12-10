@@ -2,6 +2,7 @@ nav {
   float: right;
   padding-right: 20px;
   padding-top: 10px;
+  display: block;
 }
 nav a {
   font-family: Oswald;
@@ -45,4 +46,24 @@ h2 {
   padding: 25px;
   background-color: white;
 }
+
+.icon {display: none;}
+
+@media only screen and (max-width: 768px) {
+    .menu {display: block;
+    position: relative;
+    overflow: hidden;}
+    .icon {display: block;
+        float: right;}
+    #hamMenu {display: block;
+        width: 30px;
+        height: 30px;}
+    nav { display: none;
+        float: none;
+        position: relative;
+        overflow: visible;}
+    nav a { display: block;
+    overflow: visible;}
+}
+
 <!-- 009966 green 99ccff blue -->
