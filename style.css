@@ -100,7 +100,27 @@ h2 {
   padding: 25px;
   background-color: white;
 }
+form {
+  background-color:#99ccff;
+  display: center-block;
+  text-align: center;
+  margin-left: 250px;
+  width: 792px;
+  height: 871px;
 
+
+}
+input {
+  border-radius: 5px;
+   border: 1px solid black;
+   padding: 2px;
+}
+
+button {
+  border-radius: 5px;
+   border: 1px solid black;
+   padding: 2px;
+}
 .icon {display: none;}
 .objectCenter{margin: auto;}
 
