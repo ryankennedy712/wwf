@@ -177,7 +177,11 @@ margin: auto;}
 
 #aboutPic{ padding: 30px;
    margin: auto;}
-
+#ourworkP{ margin: 0 0 0 40px;
+}
+#ourworkBottom{display: flex;}
+.ourworkIMG{ height: 100px; width: 100px;}
+#ourworkglobe {display: block;}
 /*-- Climate ------------*/
 #climatePage{}
 .climateSec{ display: block;
@@ -213,6 +217,11 @@ margin: auto;}
         overflow: visible;}
     nav a { display: block;
     overflow: visible;}
+    #ourworkBottom {display: block;
+      margin: auto;}
+      form{ display: block;
+      margin: auto;
+      width: 675px;}
 }
 
 <!-- 009966 green 99ccff blue -->
