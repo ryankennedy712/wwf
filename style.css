@@ -7,8 +7,32 @@
 #aboutuspic1 {
  display: inline-block;
 }
+#floatleft {
+  float: left;
+}
+#floatright {
+  float: right;
+}
 #aboutuspic2 {
  display: inline-block;
+}
+#climateIMGSet1 {
+  padding-bottom: 15px;
+  float: right;
+}
+#climateIMGSet2 {
+  padding-bottom: 15px;
+  float: left;
+}
+#climateTxt1 {
+  float: left;
+  padding-right: 100px;
+  padding-left: 80px;
+}
+#climateTxt2 {
+  float: right;
+  padding-right: 100px;
+  padding-left: 80px;
 }
 .txtcenter {
   text-align: center;
@@ -97,7 +121,7 @@ h2 {
 .climateIMG{ display: block;
     width: 200px;
     height: 200px;}
-
+#donateFluff{ padding: 1em;}
 @media only screen and (max-width: 768px) {
     .menu {display: block;
     position: relative;
