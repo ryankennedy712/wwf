@@ -85,6 +85,12 @@ h1 {
   color: white;
 
 }
+p {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 20;
+
+}
 h2 {
   font-family: 'Lato';
   font-weight: 900;
