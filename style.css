@@ -1,7 +1,15 @@
 * {
 
 }
-
+.in-line {
+  display: inline-block;
+}
+#aboutuspic1 {
+ display: inline-block;
+}
+#aboutuspic2 {
+ display: inline-block;
+}
 nav {
   float: right;
   padding-right: 20px;
