@@ -9,6 +9,9 @@
 .in-line {
   display: inline-block;
 }
+.aboutuspad {
+  margin-left: 40px;
+}
 #aboutuspic1 {
  display: inline-block;
  padding-bottom: 30px;
@@ -146,8 +149,6 @@ form {
   margin-left: 250px;
   width: 792px;
   height: 871px;
-
-
 }
 input {
   border-radius: 5px;
