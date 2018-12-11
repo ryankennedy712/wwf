@@ -49,7 +49,7 @@
 #bottomtext {
 
   margin:0;
-  
+
 }
 #social-section {
   padding-top: 20px;
@@ -161,7 +161,8 @@ button {
 .objectCenter{margin: auto;}
 
 /*-- Index-Home --------------*/
-#pop {}
+#pop { width: 80%;
+   margin: auto;}
 #wycdP {width: 75%;
 text-align: center;
 margin: auto;}
