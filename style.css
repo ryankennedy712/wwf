@@ -61,12 +61,22 @@ h2 {
 .wycdBlurb{}
 
 /*-- Climate ------------*/
-#climateSec{ display: block;}
-#climateBlurbLeft{ margin-right: auto;}
-#climateIMGRight{ float:right;}
-#climateIMGLeft{ float: left;}
-#climateBlurbRight{ margin-left: auto;}
-.climateIMG{ display: block;}
+#climatePage{}
+.climateSec{ display: block;
+    overflow: auto;}
+#climateBlurbLeft{ width: 45%;
+    margin-left: 30px;
+    display: block;}
+#climateIMGRight{ display: block;
+    float: right;}
+#climateIMGLeft{ display: block;
+    float: left;}
+#climateBlurbRight{ width: 45%;
+    margin-right: 30px;
+    display: block;}
+.climateIMG{ display: block;
+    width: 200px;
+    height: 200px;}
 
 @media only screen and (max-width: 768px) {
     .menu {display: block;
