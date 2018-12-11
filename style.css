@@ -96,13 +96,18 @@ h2 {
 }
 
 .icon {display: none;}
+.objectCenter{margin: auto;}
 
 /*-- Index-Home --------------*/
 #pop {}
-#wycdP {}
-.wycdDIV{}
-.wycdImg{}
-.wycdBlurb{}
+#wycdP {width: 75%;
+text-align: center;
+margin: auto;}
+.wycdDIV{ width: 500px;
+    display: inline-block;}
+.wycdImg{display: inline-block;}
+.wycdBlurb{display: inline-block;
+    width: 350px;}
 
 /*-- Climate ------------*/
 #climatePage{}
@@ -122,6 +127,8 @@ h2 {
     width: 200px;
     height: 200px;}
 #donateFluff{ padding: 1em;}
+
+
 @media only screen and (max-width: 768px) {
     .menu {display: block;
     position: relative;
