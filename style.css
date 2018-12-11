@@ -1,7 +1,27 @@
 * {
 
 }
-
+.in-line {
+  display: inline-block;
+}
+#aboutuspic1 {
+ display: inline-block;
+}
+#aboutuspic2 {
+ display: inline-block;
+}
+.txtcenter {
+  text-align: center;
+}
+.ourworkpadding {
+  padding-right: 100px;
+}
+.ourworkcentertxt {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 nav {
   float: right;
   padding-right: 20px;
